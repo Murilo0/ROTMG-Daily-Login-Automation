@@ -25,7 +25,7 @@ except Exception as e:
 
 print("Waiting for the game to load...")
 
-play_button = 'play_button.png'  # Image of the game's "Play" button
+play_button = 'img/play_button.png'  # Image of the game's "Play" button
 max_wait_time = 120  # Maximum wait time in seconds (2 minutes)
 start_time = time.time()
 game_window = None
