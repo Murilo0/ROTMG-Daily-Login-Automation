@@ -12,18 +12,15 @@ Automate your daily login process for [Realm of the Mad God](https://www.realmof
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
-This project automates the daily login process for Realm of the Mad God using Python and GUI automation tools.
+This project automates the daily login reward redeem process for Realm of the Mad God using Python and GUI automation tools.
 
 ## Features
 
-- Automates login to ROTMG
-- Simulates user input for login credentials
-- Optionally collects daily rewards
-- Customizable timing and delays
+- Automates Daily login to ROTMG when starting the computer
+- Collects daily rewards inside the game
 
 ## Requirements
 
@@ -64,5 +61,3 @@ This project automates the daily login process for Realm of the Mad God using Py
 ## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-##
