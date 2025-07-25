@@ -31,10 +31,13 @@ This project automates the daily login reward redeem process for Realm of the Ma
 ## Installation
 
 1. Clone this repository:
+
     ```sh
     git clone https://github.com/yourusername/ROTMGDailyLoginAutomation.git
     ```
+
 2. Install dependencies:
+
     ```sh
     pip install pyautogui
     ```
@@ -43,6 +46,7 @@ This project automates the daily login reward redeem process for Realm of the Ma
 
 1. Edit the script to add your login credentials and adjust screen coordinates if necessary.
 2. Run the script:
+
     ```sh
     python main.py
     ```
@@ -60,4 +64,4 @@ This project automates the daily login reward redeem process for Realm of the Ma
 
 ## Contributing
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change
