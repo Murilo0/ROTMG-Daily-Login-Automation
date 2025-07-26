@@ -4,7 +4,7 @@ import pyautogui
 import time
 import os
 import utils.image_recognition as img_recognition
-import utils.found_window as fw
+import utils.find_window as fw
 
 
 img_playButton = "/assets/img/play_button.png"
@@ -18,7 +18,7 @@ def main():
 	else:  # Linux/Mac
 		os.system(f'xdg-open {opengame}')
 
-	fw.found_window(launcher_window)
+	fw.find_window(launcher_window)
 
 	# Check if the play button is visible
 	if img_recognition.wait_for_image("img_playButton", timeout=30, confidence=0.9):
